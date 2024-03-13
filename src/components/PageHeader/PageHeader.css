@@ -1,0 +1,50 @@
+.titleBar {
+  align-items: center;
+  background: #eff6ff;
+  box-shadow: 0px 4px 48px 0px #00000040;
+  display: flex;
+  height: 98px;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.titleText1 {
+  font-family: "Poppins", "Arial", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+}
+
+.titleText2 {
+  padding-left: 1rem;
+  color: #327fde;
+  font-family: "Istok Web", "Arial", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.button {
+  border: none;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  padding: 8px 16px 8px 16px;
+  text-align: center;
+}
+
+.clearButton {
+  background: none;
+}
+
+.fillButton {
+  background: #327fde;
+  color: #ebf4f8;
+  top: 33px;
+  left: 1218px;
+  border-radius: 5px;
+}

@@ -1,0 +1,32 @@
+.toolBoxContainer {
+  border-bottom: 1px solid #327fde;
+  padding: 95px 10% 0 10%;
+}
+
+.toolBox {
+  background: #327fde;
+  border-radius: 12px 12px 0 0;
+  padding: 16px;
+}
+
+.toolRow {
+  width: 100%;
+}
+
+.allTools {
+  color: #fff;
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.allTools img {
+  margin-left: 16px;
+}

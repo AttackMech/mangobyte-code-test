@@ -1,0 +1,44 @@
+.pageTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10% 40px 10%;
+}
+
+.titleContainer {
+  box-sizing: border-box;
+  padding-right: 40px;
+  text-align: left;
+  width: 50%;
+}
+
+.titleText {
+  font-family: Arial;
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.subtitleText {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.logo {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo img {
+  height: 80px;
+  margin-left: -40px;
+  width: 78px;
+}

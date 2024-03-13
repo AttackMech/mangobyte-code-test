@@ -1,0 +1,89 @@
+.compressionSettingsContainer {
+  background-color: #eff6ff;
+  border: 1px solid #73b2ff;
+  margin-bottom: 16px;
+  padding: 12px;
+}
+.compressSettingsTitle {
+  font-family: Istok Web, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  height: 33px;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.compressInputContainer {
+  align-items: center;
+  display: flex;
+  justify-content: left;
+}
+
+.compressSettingsLabel {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.compressSettingsNumber {
+  margin: 0 8px 0 16px;
+}
+
+.toggleSwitch {
+  position: relative;
+  display: inline-block;
+  height: 28px;
+  width: 77px;
+  margin: 0 8px;
+}
+
+.toggleSwitch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggleSlider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #e7e0ec;
+  border: 2px solid #79747e;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.toggleSlider:before {
+  position: absolute;
+  content: "";
+  height: 28px;
+  width: 28px;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #49454f;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:focus + .toggleSlider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .toggleSlider:before {
+  transform: translate(47px, -50%);
+}
+
+.toggleSlider.toggleRound {
+  border-radius: 34px;
+}
+
+.toggleSlider.toggleRound:before {
+  border-radius: 50%;
+}

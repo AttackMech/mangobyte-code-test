@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.advertisement {
+  margin: 56px 0 68px 0;
+  overflow: unset;
+  width: 50%;
+}
+
+.information {
+  overflow: unset;
+  width: 100%;
+}
+
+.faq {
+  overflow: unset;
+  width: 80%;
+  margin: 64px 0 118px 0;
+}
+
+.footer {
+  overflow: unset;
+  width: 100%;
+}

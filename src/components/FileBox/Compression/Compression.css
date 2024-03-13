@@ -1,0 +1,94 @@
+.compressContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.compressBorder {
+  border-bottom: 1px dashed #327fde;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: 1px dashed #327fde;
+  border-right: 1px dashed #327fde;
+  height: 85px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+.compressSettingContainer {
+  background: #fff;
+  padding: 0 16px;
+  width: 65%;
+  z-index: 2;
+}
+
+.levelText {
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.sliderContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.sliderText {
+  font-family: Istok Web, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.slider {
+  flex: 1;
+  height: 64px;
+}
+
+.sliderInput {
+  appearance: none;
+  background: #e7e0ec;
+  height: 4px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.sliderInput::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4px;
+  background: #6750a4;
+  border-radius: 5px;
+}
+
+.sliderInput::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  margin-top: -8px;
+  border-radius: 50%;
+  background: #6750a4;
+}
+
+.compressButton {
+  background: #f9b66d;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  padding: 8px 16px 8px 16px;
+  text-align: center;
+  width: 139px;
+}

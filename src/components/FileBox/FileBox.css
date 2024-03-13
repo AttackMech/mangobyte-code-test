@@ -1,0 +1,45 @@
+.toolContainer {
+  background-color: #eff6ff;
+  display: flex;
+  flex-direction: column;
+  min-height: 260px;
+  margin: 0 10%;
+}
+
+.dashedBorder {
+  border: 1px dashed #327fde;
+}
+
+.solidBorder {
+  border: 1px solid #327fde;
+}
+
+.stageContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+}
+
+.stage {
+  border-radius: 30px;
+  display: flex;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  padding: 8px 16px 8px 16px;
+  text-align: center;
+}
+
+.stageReady {
+  border: 1px solid #327fde;
+  color: #327fde;
+}
+
+.stageNotReady {
+  border: 1px solid #c1c1c1;
+  color: #c1c1c1;
+}
+
+.stageContainer .check {
+}

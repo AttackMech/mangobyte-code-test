@@ -1,0 +1,61 @@
+.downloadContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.downloadMessage {
+  font-family: Arial;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.downloadNames {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.downloadButtonRow {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+}
+
+.downloadButtonRow button {
+  border-radius: 5px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  max-width: 157px;
+  min-height: 52px;
+  min-width: 127px;
+  padding: 8px 16px 8px 16px;
+  text-align: center;
+}
+
+.downloadFillButton {
+  background: #f9b66d;
+  border: none;
+}
+
+.downloadOutlineButton {
+  background: none;
+  border: 1px solid #f9b66d;
+  color: #f9b66d;
+  margin: 0 20px;
+}
+
+.deleteRestart {
+  border-top: 1px solid #c1c1c1;
+}

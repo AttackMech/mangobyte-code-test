@@ -1,0 +1,63 @@
+.features {
+  display: flex;
+  justify-content: space-around;
+}
+
+.featureText {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.check {
+  padding: 0 0.5rem;
+}
+
+.featureSpacer {
+  margin-left: 0.5rem;
+}
+
+.ratings {
+  background: #327fde;
+  box-shadow: 0px 4px 48px 0px #00000040;
+}
+
+.openRatingsContent {
+  background: #327fde;
+  height: 347px;
+  width: 100%;
+}
+.ratingsContent {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  height: 58px;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.star {
+  padding: 0 0.1rem;
+}
+
+.ratingText {
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  margin-left: 0.5rem;
+  text-align: left;
+}
+
+.voteText {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+}
